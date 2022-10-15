@@ -1,0 +1,168 @@
+main{
+    #sobre-nosotros {
+        padding: 30px 0 60px 0;
+
+            .contenedor-sobre-nosotros {
+                    text-align: center;
+                    justify-content: center;
+
+                    .imagen-about-us {
+                            max-width: 100%;
+                            width: 500px;
+                            height: 500px;
+                            
+                    }
+
+                    .contenido-textos {
+                        width: 100%;
+                        height: 100%;
+                        
+
+                        h3 {
+                           margin-top: 50px;
+                            font-weight: 100px;
+                            text-align: center;
+                            
+                            font-size: 110%;
+                            color: $mainColor;
+                        }
+                    }
+            }
+            
+    }
+
+          #catalogo {
+              background: $secondaryColor;
+    
+              .contenedor {
+    
+                  .galeria-port {
+                      display: flex;
+                      justify-content: space-evenly;
+                      flex-wrap: wrap;
+    
+                      .imagen-port {
+                          width: 24%;
+                          height: 150px;
+                          margin-bottom: 10px;
+                          overflow: hidden;
+                          position: relative;
+                          cursor: pointer;
+                          box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+                          &>img {
+                              
+                              height: 100%;
+                              object-fit: cover;
+                              display: block;
+                                max-width: 100%;
+                                    width: 675px
+                          }
+    
+                          .hover-galeria {
+                              position: absolute;
+                              width: 100%;
+                              height: 100%;
+                              top: 0;
+                              transform: scale(0);
+                              background: $mainColor;
+                              transition: transform .5s;
+                              display: flex;
+                              color: $secondaryColor;
+                              justify-content: center;
+                              align-items: center;
+                              flex-direction: column;
+    
+    
+                              p {
+                                  color: $secondaryColor;
+                              }
+    
+                          }
+    
+                          :hover .hover-galeria {
+                              transform: scale(1);
+                          }
+                      }
+                  }
+    
+    
+    
+    
+    
+              }
+          }
+    
+          
+    
+          #contenedor-faq {
+              padding: 30px 0 60px 0;
+    
+              .contenedor-sobre-faq {
+                    text-align: center;
+                    justify-content: center;
+    
+                  .imagen-about-us {
+                    max-width: 100%;
+                    width: 500px;
+                    height: 500px;
+                      
+                  }
+    
+                  .contenido-textos {
+                    width: 100%;
+                    height: 100%;
+    
+                      h3 {
+                        margin-top: 50px;
+                            font-weight: 100px;
+                            text-align: center;
+                        
+                            font-size: 110%;
+                            color: $mainColor;
+
+                        span {
+                                background: $mainColor;
+                                color: $secondaryColor;
+                                font-size: medium;
+                                border-radius: 50%;
+                                display: inline-block;
+                                text-align: center;
+                                width: 30px;
+                                height: 30px;
+                                padding: 2.5px;
+                                box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+                                margin-right: 5px;
+                            }
+                      }
+    
+                      
+                      p {
+                            margin-top: 50px;
+                                font-weight: 100px;
+                                text-align: center;
+                            
+                                font-size: 110%;
+                                color: $mainColor;
+                          
+                      }
+                  }
+              }
+    
+          }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

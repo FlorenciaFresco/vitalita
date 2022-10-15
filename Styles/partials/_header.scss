@@ -1,0 +1,58 @@
+
+header {
+    width: 100%;
+    height: 600px;
+    /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2E7780, $mainColor), url(../imagenes/banner.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2e768080, #1a3c407e),
+            url(../imagenes/banner.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: $secondaryColor;
+
+    nav {
+        text-align: right;
+        padding: 30px 50px 0 0;
+
+            >a {
+                color: $secondaryColor;
+                font-weight: 300;
+                text-decoration: none;
+                margin-right: 10px;
+
+                &:hover {
+                        text-decoration: underline;
+                }
+            }
+        }
+
+    .textos-header {
+        display: flex;
+        height: 430px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            color: $secondaryColor;
+            }
+            
+        h2 {
+            font-size: 30px;
+             font-weight: 300;
+            color: $secondaryColor;
+            }
+    }
+
+    .wave {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
