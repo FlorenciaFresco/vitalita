@@ -32,6 +32,7 @@ header {
   width: 100%;
   height: 600px;
   /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2E7780, #1A3C40), url(../imagenes/banner.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, rgba(46, 118, 128, 0.5019607843), rgba(26, 60, 64, 0.4941176471)), url(../imagenes/banner.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -118,8 +119,7 @@ main #catalogo .contenedor .galeria-port .imagen-port {
 }
 main #catalogo .contenedor .galeria-port .imagen-port > img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
   max-width: 100%;
   width: 675px;
@@ -217,8 +217,7 @@ main #contenedor-faq .contenedor-sobre-faq .contenido-textos p {
 .cards .card > img {
   width: 80px;
   height: 80px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 3px solid #EDE6DB;
   border-radius: 50%;
   display: block;
@@ -277,6 +276,7 @@ main #contenedor-faq .contenedor-sobre-faq .contenido-textos p {
 footer {
   background: #1A3C40;
   /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2E7780, #1A3C40), url(../imagenes/banner.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, rgba(46, 118, 128, 0.5019607843), rgba(26, 60, 64, 0.4941176471)), url(../imagenes/banner.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -370,4 +370,6 @@ footer .titulo-final {
   .titulo-final {
     font-size: 20px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
