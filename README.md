@@ -1,7 +1,7 @@
 # vitalita
 https://florenciafresco.github.io/vitalita/
 <h1 align="center">Hi 👋, I'm Florencia Belén Fresco</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+<h3 align="center">A passionate Full Stack developer learner from Argentina</h3>
 
 - 🔭 I’m currently working on **PwC**
 
